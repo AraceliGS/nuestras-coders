@@ -1,11 +1,47 @@
-/*Aplico la misma fuente a todos los elementos y también box-sizing para que mis cajas estén parejas*/
+/*Aplico la misma fuente a todos los elementos y también box-sizing para que mis cajas estén parejas. Además ordene ls propiedas de cada regla CSS en orden alfábetico para facilitar su búsqueda*/
 * {
-  font-family: 'Rokkitt', serif;
   box-sizing: border-box;
+  font-family: 'Rokkitt', serif;
+}
+
+section {
+  height: 250px;
+  margin: 30px 10px 50px 10px;
+  /*outline: 1px solid green;*/ /*Utilizando outline para ver la ubicación y el comportamiento(de bloque o en línea) de mi caja*/
+  /*overflow: auto;*/
+}
+
+
+div {
+  /*float: left;*/
+  display: inline-block;
+  height: 210px;
+  margin-right: 50px;
+  /*outline: 1px solid orange;*/
+  position: relative;
+  top: 7%;
+  width: 210px;
+}
+
+p {
+  color: #fff;
+  left: 60px;
+  position: absolute;
+  /*outline: 1px solid blue;*/
+  text-align: center;
+  top: 164px;
+  width: 160px;
+}
+
+img {
+  height: 210px;
+  width: 210px;
 }
 
 header h1 {
-  margin-bottom: 3px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 30px;
 }
 
 header hr {
@@ -13,31 +49,6 @@ header hr {
   margin-top: 0;
   margin-bottom: 0;
   position: relative;
-  right: 900px;
-  width: 100px;
-}
-section {
-  height: 300px;
-  margin: 40px 3px 50px 3px;
-  outline: 1px solid green; /*Utilizando outline para ver la ubicación de mi caja*/
-  overflow: auto;
-}
-
-div {
-  float: left;
-  height: 210px;
-  outline: 1px solid orange;
-  width: 210px;
-}
-
-p {
-  outline: 1px solid blue;
-  text-align: center;
-  width: 160px;
-  position:
-}
-
-img {
-  height: 210px;
-  width: 210px;
+  right: 897px;
+  width: 90px;
 }
