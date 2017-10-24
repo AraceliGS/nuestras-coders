@@ -1,1 +1,16 @@
+* {
+  font-family: 'Rokkitt', serif;
+}
 
+div {
+  outline: 1px solid orange; /*Utilizando outline para ver la ubicación de mi caja*/
+  width: 230px;
+  height: 230px;
+
+}
+
+p {
+  outline: 1px solid blue;
+  width: 160px;
+  text-align: center;
+}
