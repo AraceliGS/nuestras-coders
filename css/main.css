@@ -1,16 +1,27 @@
+/*Aplico la misma fuente a todos los elementos y también box-sizing para que mis cajas estén parejas*/
 * {
   font-family: 'Rokkitt', serif;
+  box-sizing: border-box;
+}
+section {
+  outline: 1px solid green; /*Utilizando outline para ver la ubicación de mi caja*/
+  margin-bottom: 30px;
 }
 
 div {
-  outline: 1px solid orange; /*Utilizando outline para ver la ubicación de mi caja*/
-  width: 230px;
-  height: 230px;
-
+  outline: 1px solid orange;
+  width: 280px;
+  height: 280px;
+  display: inline-block;
 }
 
 p {
   outline: 1px solid blue;
   width: 160px;
   text-align: center;
+}
+
+img {
+  width: 230px;
+  height: 230px;
 }
