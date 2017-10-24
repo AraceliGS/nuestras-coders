@@ -3,25 +3,41 @@
   font-family: 'Rokkitt', serif;
   box-sizing: border-box;
 }
+
+header h1 {
+  margin-bottom: 3px;
+}
+
+header hr {
+  border: 3px solid black;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  right: 900px;
+  width: 100px;
+}
 section {
+  height: 300px;
+  margin: 40px 3px 50px 3px;
   outline: 1px solid green; /*Utilizando outline para ver la ubicación de mi caja*/
-  margin-bottom: 30px;
+  overflow: auto;
 }
 
 div {
+  float: left;
+  height: 210px;
   outline: 1px solid orange;
-  width: 280px;
-  height: 280px;
-  display: inline-block;
+  width: 210px;
 }
 
 p {
   outline: 1px solid blue;
-  width: 160px;
   text-align: center;
+  width: 160px;
+  position:
 }
 
 img {
-  width: 230px;
-  height: 230px;
+  height: 210px;
+  width: 210px;
 }
