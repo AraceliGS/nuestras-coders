@@ -39,9 +39,9 @@ img {
 }
 
 header h1 {
+  font-size: 28px;
   margin-bottom: 10px;
   margin-left: 10px;
-  font-size: 30px;
 }
 
 header hr {
@@ -49,6 +49,6 @@ header hr {
   margin-top: 0;
   margin-bottom: 0;
   position: relative;
-  right: 897px;
-  width: 90px;
+  right: 900px;
+  width: 84px;
 }
