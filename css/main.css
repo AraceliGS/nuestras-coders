@@ -1,7 +1,7 @@
-/*Aplico la misma fuente a todos los elementos y también box-sizing para que mis cajas estén parejas. Además ordene ls propiedas de cada regla CSS en orden alfábetico para facilitar su búsqueda*/
+/*Aplico la misma fuente a todos los elementos y también box-sizing para que mis cajas estén parejas. Además ordene las propiedas de cada regla CSS en orden alfábetico para facilitar su búsqueda*/
 * {
   box-sizing: border-box;
-  font-family: 'Rokkitt', serif;
+  font-family: 'Rokkitt', serif;/*Fuente obtenida de Google Fonts*/
 }
 
 section {
@@ -13,7 +13,7 @@ section {
 
 
 div {
-  /*float: left;*/
+  /*float: left; ---> Ubicó mis cajas a la izquierda. Lo usé mientras armaba mi estructura, pero lo dejé de hacerlo porque según el ejemplo cada una tenia que tener diferente ubicación.*/
   display: inline-block;
   height: 210px;
   margin-right: 50px;
@@ -36,6 +36,7 @@ p {
 img {
   height: 210px;
   width: 210px;
+  opacity: 0.9; /*Valores de opacity: 0-1, 0 = transparente, 1 = opaco*/
 }
 
 header h1 {
