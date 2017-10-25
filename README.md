@@ -1,4 +1,4 @@
-# **Proyecto Nuestras Coders** | ![Laboratoria Logo](assets/images/logo.png)
+# **Proyecto Nuestras Coders**                                                                                           ![Laboratoria Logo](assets/images/logo.png)
 
 ***
 
