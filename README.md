@@ -1,4 +1,4 @@
-# **Proyecto Nuestras Coders** | ![Laboratoria Logo](/images/logo.png)
+# **Proyecto Nuestras Coders** | ![Laboratoria Logo](assets/images/logo.png)
 
 ***
 
@@ -6,7 +6,7 @@
 
 * Con los conocimientos adquiridos en HTML y CSS, replicar el siguiente esquema:
 
-![Nuestras Coders](/images/esquema.png)
+![Nuestras Coders](assets/images/esquema.png)
 
 ## **Consideraciones específicas**
 
